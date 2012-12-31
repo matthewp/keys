@@ -4,11 +4,13 @@
 
 ## Installation
 
+**keys** is meant to be used as a [component](https://github.com/component/component).
+
     $ component install matthewp/keys
 
 ## API
 
-#### keys()
+#### keys(obj)
 
 ```javascript
 keys({foo: 'bar'});
