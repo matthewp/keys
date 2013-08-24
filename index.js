@@ -1,8 +1,10 @@
+var has = Object.prototype.hasOwnProperty;
+
 module.exports = Object.keys || function(obj){
   var keys = [];
 
   for (var key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (has.call(key)) {
       keys.push(key);
     }
   }
