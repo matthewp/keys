@@ -4,7 +4,7 @@ module.exports = Object.keys || function(obj){
   var keys = [];
 
   for (var key in obj) {
-    if (has.call(key)) {
+    if (has.call(obj, key)) {
       keys.push(key);
     }
   }
