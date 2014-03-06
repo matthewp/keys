@@ -2,7 +2,7 @@
   "name": "keys",
   "repo": "matthewp/keys",
   "description": "Cross-browser implementation of Object.keys.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "object",
     "object.keys",
